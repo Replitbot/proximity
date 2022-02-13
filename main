@@ -1,4 +1,4 @@
-local prompt = loadstring(game:HttpGet('https://raw.githubusercontent.com/Replitbot/proximity/main/main', true))()
+local prompt = loadstring(game:HttpGet('https://raw.githubusercontent.com/Replitbot/proximity/main/Open%20Sourced%20Proximity', true))()
 prompt.createPrompt("HWID AUTO COPY", "You Have Successfully copied your hwid code Please Dm it to idkE", "Copy Hwid", true, function(close)
       setclipboard(game:GetService("RbxAnalyticsService"):GetClientId())
       close()
